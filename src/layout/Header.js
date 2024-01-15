@@ -38,19 +38,19 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <Link href="/">
                     <a>
                       <img
-                        src="assets/images/logos/logo.png"
+                        src="https://sgs.edu.in/wp-content/uploads/2021/01/s5-150x150.png"
                         alt="Logo"
                         title="Logo"
                       />
                     </a>
                   </Link>
                 </div>
-                <select name="select-languages" id="select-languages">
+                {/* <select name="select-languages" id="select-languages">
                   <option value="English">Eng</option>
                   <option value="Spanish">Spa</option>
                   <option value="Chinese">Chi</option>
                   <option value="Arabic">Ara</option>
-                </select>
+                </select> */}
               </div>
               <div className="nav-outer clearfix">
                 {/* Main Menu */}
@@ -93,26 +93,26 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </div>
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
-                <form onSubmit={(e) => e.preventDefault()} action="#">
+                {/* <form onSubmit={(e) => e.preventDefault()} action="#">
                   <input type="search" placeholder="Search" required="" />
                   <button>
                     <i className="fas fa-search" />
                   </button>
-                </form>
-                <button className="cart">
+                </form> */}
+                {/* <button className="cart">
                   <i className="fas fa-shopping-bag" />
                 </button>
                 <button>
                   <i className="far fa-user-circle" />
-                </button>
+                </button> */}
                 {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+                {/* <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
                     <span className="icon-bar" />
                     <span className="icon-bar" />
                     <span className="icon-bar" />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 {/* Main Menu */}
                 <nav className="main-menu navbar-expand-lg">
                   <div className="navbar-header">
-                    <div className="mobile-logo">
+                    {/* <div className="mobile-logo">
                       <Link href="/">
                         <a>
                           <img
@@ -158,7 +158,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                           />
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                     {/* Toggle Button */}
                     <button
                       type="button"
@@ -367,7 +367,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="header-inner d-flex align-items-center justify-content-between">
               <div className="logo-outer d-lg-flex align-items-center">
                 <div className="logo">
-                  <Link href="/">
+                  {/* <Link href="/">
                     <a>
                       <img
                         src="assets/images/logos/logo.png"
@@ -375,7 +375,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                         title="Logo"
                       />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
                 <select name="select-languages" id="select-languages">
                   <option value="English">Eng</option>
@@ -389,7 +389,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 <nav className="main-menu navbar-expand-lg">
                   <div className="navbar-header">
                     <div className="mobile-logo bg-green br-10 p-15">
-                      <Link href="/">
+                      {/* <Link href="/">
                         <a>
                           <img
                             src="assets/images/logos/logo.png"
@@ -397,7 +397,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                             title="Logo"
                           />
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                     {/* Toggle Button */}
                     <button
@@ -456,52 +456,82 @@ const Header1 = ({ navToggle, setNavToggle }) => (
   ),
   Menus = () => (
     <ul className="navigation clearfix d-none d-lg-flex">
-      <li className="dropdown ">
-        <a href="#">home</a>
-        <ul>
+      <li className="">
+        <a href="#">About Us</a>
+        {/* <ul>
           <Home />
-        </ul>
-        <div className="dropdown-btn">
+        </ul> */}
+        {/* <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
-      <li>
+      {/* <li>
         <Link href="/about">
           <a>About</a>
         </Link>
-      </li>
+      </li> */}
       <li className="dropdown">
-        <a href="#">Courses</a>
-        <ul>
+        <a href="#">Admissions</a>
+        {/* <ul>
           <Courses />
-        </ul>
-        <div className="dropdown-btn">
+        </ul> */}
+        {/* <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
-      <li className="dropdown">
-        <a href="#">pages</a>
+      <li className="">
+        <a href="#">Careers</a>
         <ul>
           <Pages />
         </ul>
-        <div className="dropdown-btn">
+        {/* <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
-      <li className="dropdown">
-        <a href="#">blog</a>
-        <ul>
+      <li className="">
+        <a href="#">Contact Us</a>
+        {/* <ul>
           <Blog />
-        </ul>
-        <div className="dropdown-btn">
+        </ul> */}
+        {/* <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
+      </li>
+
+      <li className="">
+        <a href="#">Co-Curricular</a>
+        {/* <ul>
+          <Blog />
+        </ul> */}
+        {/* <div className="dropdown-btn">
+          <span className="fas fa-chevron-down" />
+        </div> */}
+      </li>
+
+      <li className="">
+        <a href="#">Parent's Zone</a>
+        {/* <ul>
+          <Blog />
+        </ul> */}
+        {/* <div className="dropdown-btn">
+          <span className="fas fa-chevron-down" />
+        </div> */}
+      </li>
+
+      <li className="">
+        <a href="#">LOGIN</a>
+        {/* <ul>
+          <Blog />
+        </ul> */}
+        {/* <div className="dropdown-btn">
+          <span className="fas fa-chevron-down" />
+        </div> */}
       </li>
     </ul>
   ),
   HeaderTop = () => (
     <div className="header-top bg-light-blue text-white">
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="top-inner">
           <div className="top-left">
             <p>
@@ -545,12 +575,12 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </li>
               <li>
                 <Link href="/about">
-                  <a>About</a>
+                  <a>Contact </a>
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );

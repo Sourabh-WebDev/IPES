@@ -16,42 +16,34 @@ const Index1Isotope = dynamic(
 const Index = () => {
   return (
     <Layout header={1} footer={1}>
+
+
       <section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
-                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s">
-                  Coaching &amp; Speker
-                </span>
-                <h1 className="mb-20 wow fadeInUp delay-0-4s">
-                  Build Bright Life? Take Our Life Coach
-                </h1>
+                <h3 style={{ color: "blue" }} className="mb-20 wow fadeInUp delay-0-4s">
+                  Message from the Director’s Desk:
+                </h3>
                 <p className="wow fadeInUp delay-0-6s">
-                  Sit amet consectetur adipiscing elit sed do eiusmod tempor
-                  incididunt labore dolore magna aliqua suspendisse ultrices
-                  gravida.
+                  “Education is not the filling of a bucket but the lighting of a fire,” said W B Yeats, the famous 20th-century Irish poet. Educators play a big role in molding the lives of students. A good educator does not conform to a mould but goes beyond it to empower his/her students to become the people they are meant to be in the world. As educators, we try to follow the three “I’s”.
                 </p>
-                <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-                  <Link href="/course-grid">
-                    <a className="theme-btn">
-                      Get Your Free Coach <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
               </div>
             </div>
+
             <div className="col-lg-5">
-              <div className="hero-right-images text-lg-right wow fadeInUp delay-0-2s">
-                <img src="assets/images/hero/hero-right.png" alt="Hero" />
+              <div style={{ marginRight: "20px" }} className="hero-right-images text-lg-right wow fadeInUp delay-0-2s" >
+                <img src="https://sgs.edu.in/wp-content/uploads/2021/01/Dr.-Sara-George-copy-2.png" alt="Hero" />
               </div>
             </div>
           </div>
         </div>
-        <span className="bg-text">coach</span>
       </section>
+
       {/* Hero Section End */}
       {/* Features Section Start */}
+
       <section className="features-section rel z-1 pt-80 pb-40 bg-blue text-white">
         <div className="container">
           <div className="row justify-content-center">
@@ -61,10 +53,9 @@ const Index = () => {
                   <img src="assets/images/features/icon1.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <h4>Online Courses From Experts</h4>
+                  <h6>Online Courses From Experts </h6>
                   <p>
-                    Sit amet consectetur adipisc elit sed do eiusmod temporse
-                    incididunt labore dolore
+                    St. George’s School began its remarkable journey to be one of the most renowned schools in Delhi after coming under the aegis of The Muthoot Group in 1982
                   </p>
                 </div>
               </div>
@@ -75,10 +66,9 @@ const Index = () => {
                   <img src="assets/images/features/icon2.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <h4>Over 500+ High Quality Topics</h4>
+                  <h6>Over 500+ High Quality Topics</h6>
                   <p>
-                    Sit amet consectetur adipisc elit sed do eiusmod temporse
-                    incididunt labore dolore
+                    The Muthoot Group in 1982. With three decades of tremendous change and development, from being a small and relatively unknown institution,
                   </p>
                 </div>
               </div>
@@ -89,10 +79,9 @@ const Index = () => {
                   <img src="assets/images/features/icon1.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <h4>Event &amp; Program Video Update</h4>
+                  <h6>Event &amp; Program Video Update</h6>
                   <p>
-                    Sit amet consectetur adipisc elit sed do eiusmod temporse
-                    incididunt labore dolore
+                    Due to the untiring efforts and able guidance of Director Dr. Sara George that the school is now a name to reckon with in the field of education in the nation’s capital.
                   </p>
                 </div>
               </div>
@@ -115,76 +104,51 @@ const Index = () => {
       <section className="about-section pt-130 rpt-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 align-self-end">
+            {/* <div className="col-lg-5 align-self-end">
               <div className="about-man rmb-75 wow fadeInLeft delay-0-2s">
                 <img src="assets/images/about/man.png" alt="Man" />
               </div>
-            </div>
-            <div className="col-lg-7">
+            </div> */}
+            <div style={{display:"flex"}} className="">
               <div className="about-content rel z-2 pb-115 rpb-85 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-25">about us</span>
-                  <h2>We Provide Life Coach From Expert Advisors</h2>
+                  <h3 style={{ color: "blue" }}>Awards & Recognitions</h3>
                 </div>
                 <div className="about-features">
                   <div className="row">
                     <div className="col-sm-6">
                       <div className="feature-item">
-                        <div className="icon">
-                          <i className="fas fa-check" />
-                        </div>
+                        
                         <div className="content">
-                          <h5>Exclusive Coach</h5>
-                          <p>Sit consectetur adipiscing eiuse tempor incides</p>
+                            <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
                         </div>
                       </div>
                     </div>
                     <div className="col-sm-6">
                       <div className="feature-item">
-                        <div className="icon">
-                          <i className="fas fa-check" />
-                        </div>
+                       
                         <div className="content">
-                          <h5>Creative Minds</h5>
-                          <p>Sit consectetur adipiscing eiuse tempor incides</p>
+                          <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
                         </div>
                       </div>
                     </div>
                     <div className="col-sm-6">
                       <div className="feature-item">
-                        <div className="icon">
-                          <i className="fas fa-check" />
-                        </div>
                         <div className="content">
-                          <h5>Master Certified</h5>
-                          <p>Sit consectetur adipiscing eiuse tempor incides</p>
+                        <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
                         </div>
                       </div>
                     </div>
                     <div className="col-sm-6">
                       <div className="feature-item">
-                        <div className="icon">
-                          <i className="fas fa-check" />
-                        </div>
                         <div className="content">
-                          <h5>Video Tutorials</h5>
-                          <p>Sit consectetur adipiscing eiuse tempor incides</p>
+                        <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="about-btns">
-                  <Link href="/about">
-                    <a className="theme-btn style-two my-15">
-                      Learn more us <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <Link href="/faqs">
-                    <a className="read-more">
-                      How it works <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
