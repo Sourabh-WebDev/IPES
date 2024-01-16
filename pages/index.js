@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Layout from "../src/layout/Layout";
-
 import dynamic from "next/dynamic";
 import Slider from "react-slick";
 import Index1WorkStepSlider from "../src/components/slider/Index1WorkStepSlider";
@@ -16,8 +15,6 @@ const Index1Isotope = dynamic(
 const Index = () => {
   return (
     <Layout header={1} footer={1}>
-
-
       <section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
         <div className="container">
           <div className="row align-items-center">
@@ -31,7 +28,6 @@ const Index = () => {
                 </p>
               </div>
             </div>
-
             <div className="col-lg-5">
               <div style={{ marginRight: "20px" }} className="hero-right-images text-lg-right wow fadeInUp delay-0-2s" >
                 <img src="https://sgs.edu.in/wp-content/uploads/2021/01/Dr.-Sara-George-copy-2.png" alt="Hero" />
@@ -44,7 +40,7 @@ const Index = () => {
       {/* Hero Section End */}
       {/* Features Section Start */}
 
-      <section className="features-section rel z-1 pt-80 pb-40 bg-blue text-white">
+      <sectistyon className="features-section rel z-1 pt-80 pb-40 bg-blue text-white">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
@@ -98,58 +94,54 @@ const Index = () => {
           src="assets/images/shapes/circle-dots.png"
           alt="Shape"
         />
-      </section>
+      </sectistyon>
       {/* Features Section End */}
       {/* About Section Start */}
       <section className="about-section pt-130 rpt-100">
         <div className="container">
-          <div className="row">
-            {/* <div className="col-lg-5 align-self-end">
+          {/* <div className="col-lg-5 align-self-end">
               <div className="about-man rmb-75 wow fadeInLeft delay-0-2s">
                 <img src="assets/images/about/man.png" alt="Man" />
               </div>
             </div> */}
-            <div style={{display:"flex"}} className="">
-              <div className="about-content rel z-2 pb-115 rpb-85 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-40">
-                  <h3 style={{ color: "blue" }}>Awards & Recognitions</h3>
-                </div>
-                <div className="about-features">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div className="feature-item">
-                        
-                        <div className="content">
-                            <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div className="feature-item">
-                       
-                        <div className="content">
-                          <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div className="feature-item">
-                        <div className="content">
+          <div style={{ display: "flex" }}>
+            <div className="about-content rel z-2 pb-115 rpb-85 wow fadeInRight delay-0-2s">
+              <div className="section-title mb-40">
+                <h3 style={{ color: "blue", textAlign: "center" }}>Awards & Recognitions</h3>
+              </div>
+              <div className="about-features">
+                <div className="row">
+                  <div className="col-sm-3">
+                    <div className="feature-item">
+                      <div className="content">
                         <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
-                        </div>
                       </div>
                     </div>
-                    <div className="col-sm-6">
-                      <div className="feature-item">
-                        <div className="content">
+                  </div>
+                  <div className="col-sm-3">
+                    <div className="feature-item">
+                      <div className="content">
                         <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
-                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-3">
+                    <div className="feature-item">
+                      <div className="content">
+                        <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-3">
+                    <div className="feature-item">
+                      <div className="content">
+                        <img src="https://sgs.edu.in/wp-content/uploads/2020/12/SGS_Awards-Recognitions_01-300x285.png" alt="Man" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="about-btns">
-                </div>
+              </div>
+              <div className="about-btns">
               </div>
             </div>
           </div>
@@ -157,10 +149,16 @@ const Index = () => {
       </section>
       {/* About Section End */}
       {/* Coach Section Start */}
-      <Index1Isotope />
+      {/* <Index1Isotope /> */}
       {/* Coach Section End */}
       {/* Work Process Section Start */}
-      <section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
+
+      <div className="Line">
+        <div style={{ width: "30%", height: "100%" }}  >
+
+        </div>
+      </div>
+      <section className="">
         <div className="container">
           <Index1WorkStepSlider />
         </div>
